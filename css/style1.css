@@ -1,0 +1,1008 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+    padding: 0px 0px;
+    margin: 0px 0px;
+     transition: padding 0.5s;
+       background-color: #ff9234;
+}
+
+input:focus {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+  border: 1px solid #fb7813 !important;
+}
+
+textarea:focus {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+  border: 1px solid #fb7813 !important;
+}
+
+.header-top {
+  position: absolute;
+  top: 0;
+  background-color: rgba(0,0,0,0.2);
+  z-index: 1;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+    background-image: url('../images/header-img.jpg');
+    text-align: center;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    height: 600px;
+    position: relative;
+
+}
+
+.navbar-nav{
+    list-style: none;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    padding: 0px 0px;
+}
+
+.navbar-nav li{
+    display: inline;
+    margin:3px 10px;
+}
+
+.navbar-nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-nav a:hover{
+    color: #fb7813 !important;
+}
+
+.navbar-nav a.active {
+  color: #fb7813 !important;
+}
+
+.navbar {
+   padding-top: 40px !important;
+   position: relative;
+   z-index: 2;
+}
+
+.navbar .navbar-toggler {
+    color: white !important;
+    font-size: 25px;
+    position: relative;
+    z-index: 2;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  font-weight: 800;
+  font-size: 5rem;
+    font-family: 'Roboto Black', sans-serif;
+}
+
+header .navbar .cta-btn a {
+  background: none;
+  border: 1px solid white;
+  text-transform: uppercase;
+  font-size: .8rem;
+  padding: 10px 20px !important;
+  line-height: 1;
+  font-weight: bold;
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease; }
+  header .navbar .cta-btn a:hover {
+    background-color: #fb7813;
+    color: white !important;
+    border: none;
+    -webkit-box-shadow: 2px 0 30px -5px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 0 30px -5px rgba(0, 0, 0, 0.2);
+     }
+
+.welcome {
+    text-transform: uppercase;
+    font-size: 406%;
+    color: white;
+    font-family: Arial Black;
+    margin-top: 130px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    position: relative;
+    z-index: 2;
+}
+
+header p{
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 0;
+    color: #EAF6F6;
+    font-family: 'Roboto light 300', sans-serif;
+    position: relative;
+    z-index: 2;
+    padding: 10px 20px;
+}
+
+.reservation {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    background-color: #fb7813;
+    line-height: 40px;
+    font-size: 1rem;
+    height: 40px;
+    padding: 10px 20px !important;
+    text-transform: uppercase;
+    font-family: 'Roboto Black', sans-serif;
+    position: relative;
+    z-index: 2;
+    transition: all 1s;
+}
+
+.reservation:hover {
+   color:  white;
+    background: none;
+    text-decoration: none;
+    border: 1px solid white;
+    transition: all 1s;
+}
+
+
+
+.speacial {
+    text-align: center;
+    box-sizing: border-box;
+    padding: 120px 120px;
+    margin: auto;
+}
+
+
+.speacial .card{
+   text-align: center;
+   width: 17rem !important;
+   margin: auto;
+   width: 100% !important;
+   margin-top: 50px;
+   text-align: left;
+}
+
+.speacial h5{
+       font-family: 'Roboto Black', sans-serif !important;
+       padding-bottom: 20px;
+       color: #fb7813 !important;
+}
+
+.speacial .card p{
+  color: #8f8f8f;
+}
+
+.speacial h1{
+       font-family: 'Roboto Black', sans-serif !important;
+    position: relative;
+    margin-bottom: 70px;
+        font-size: 3rem !important;
+        text-transform: uppercase;
+}
+
+.speacial h1::before{
+   position: absolute;
+    content: "";
+    width: 5%;
+    bottom: -30%;
+    background-color: #fb7813;
+    height: 3px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.row-special {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.our-story {
+    box-sizing: border-box;
+     background-color: #e5e5e5;
+}
+
+.our-story h1{
+   text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.our-story h1:before{
+   position: absolute;
+    content: "";
+    width: 15%;
+    height: 3px;
+    background-color:  #fb7813;
+    bottom: -30%;
+}
+
+.our-story .our-story-para {
+box-sizing: border-box;
+    padding: 100px 100px;
+    font-family: sans-serif;
+}
+
+.our-story p{
+ margin-bottom: 30px;
+ line-height: 2;
+   color: #8f8f8f;
+}
+.our-story img{
+    width: 100%;
+    height: 100%;
+}
+
+.our-story a{
+  width: 11.625rem;
+  text-decoration: none;
+  background-color:  #fb7813;
+  color: white;
+  padding: 8px 25px;
+  transition: all 1s;
+}
+
+.our-story a:hover{
+  color: white;
+  text-decoration: none;
+
+  transition: all 1s;
+ }
+
+.menu {
+    box-sizing: border-box;
+    padding: 100px 100px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.menu h2{
+    text-align: center;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+
+.menu h2::before{
+    position: absolute;
+    content: "";
+    width: 5%;
+    height: 3px;
+    background-color:  #fb7813;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.menu img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.menu h5{
+  padding-top: 15px;
+}
+
+.meat {
+width: 100% !important;
+height: 100%;
+padding: 0px 5px;
+box-sizing: border-box;
+}
+
+.instagram {
+    padding-top:100px;
+}
+
+.instagram img{
+    width: 100%;
+    height: 100%;
+}
+
+.our-chef {
+    background-color: #e5e5e5;
+    box-sizing: border-box;
+    padding: 100px 100px;
+    font-family: sans-serif;
+}
+
+.our-chef h1{
+   text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.our-chef h1:before{
+   position: absolute;
+    content: "";
+    width: 15%;
+    height: 3px;
+    background-color:  #fb7813;
+    bottom: -30%;
+}
+
+.our-chef p{
+    width: 85%;
+    color: #8f8f8f;
+    line-height: 1.7;
+}
+
+.our-chef img{
+    width: 85%;
+    height: 100%;
+}
+
+
+footer {
+     background-color: #f7f7f7;
+    color: #9A9999;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 80px 80px;
+    width: 100%;
+}
+
+footer h4{
+    margin-bottom: 50px;
+    position: relative;
+}
+
+footer p {
+    color: #777872;
+}
+
+footer h4::before {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color:  #fb7813;
+    bottom: -70%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.send {
+    margin-top: 70px;
+    text-transform: uppercase;
+}
+
+.name, .email{
+ border: none;
+    outline: none;
+    background-color: white;
+        border: 1px solid #b9bbbd;
+    height: 35px;
+    width: 55%;
+    margin-bottom: 20px !important;
+}
+
+.name {
+    float: right
+}
+
+.email {
+    float: left;
+}
+
+.textarea-row {
+ padding: 0 !important;
+}
+
+textarea {
+    border: none;
+    outline: none;
+    background-color: white;
+    border: 1px solid #b9bbbd;
+    width: 55% !important;
+    height: 100px;
+}
+
+::placeholder {
+  color:  #b9bbbd;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #b9bbbd;
+}
+
+::-ms-input-placeholder {
+  color: #b9bbbd;
+}
+
+footer .btn {
+   width: 150px;
+    background: none;
+    border-radius: 0 !important;
+    height: 45px;
+    /*color: #b9bbbd;*/
+    color: white;
+    background-color: #fb7813;
+    text-transform: uppercase;
+    margin-top: 30px;
+    transition: all 1s linear;
+}
+
+footer .btn:hover {
+    border: none !important;
+    color: white;
+    transition: all 1s linear;
+    background-color: #ff9234;
+}
+
+.container-fluid {
+  padding-left: 0rem;
+     padding-right: 0rem;
+     overflow: hidden;
+       background-color: #f7f7f7;
+}
+
+.copyright {
+        background-color: #e5e5e5;
+    text-align: center;
+    color: black;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px 10px !important;
+}
+
+.social-media {
+  list-style: none;
+}
+
+.social-media li{
+  display: inline-block;
+}
+
+.social-media li a{
+  color: Black;
+  margin: 0 8px;
+  font-size: 1.25rem;
+}
+
+.social-media-chef {
+  list-style: none;
+  padding-left: 0 !important;
+}
+
+.social-media-chef li{
+display: inline;
+}
+
+.social-media-chef li a{
+  color: Black;
+  font-size: 1.35rem;
+  margin-right: 10px;
+}
+
+.blog {
+ padding-top: 100px;
+   background-color: #f7f7f7;
+}
+
+.blog .card{
+ margin: auto;
+}
+
+.blog h1{
+text-align: center;
+text-transform: uppercase;
+font-family: 'Roboto Black', sans-serif !important;
+}
+
+.blog h1:before{
+   position: absolute;
+    content: "";
+    width: 5%;
+    height: 3px;
+    background-color:  #fb7813;
+    bottom: -5%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.blog-div {
+  margin-top: 150px;
+}
+
+.blog-div img{
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  object-fit: cover;
+
+}
+
+.blog-div h5{
+  color: #fb7813;
+}
+
+#date-blog {
+color: #8f8f8f;
+padding-bottom: 15px;
+}
+
+.blog-div .btn-blog{
+  background-color: #fb7813;
+  border: none !important;
+  outline: none !important;
+  color: white;
+  display: block;
+  width: 120px;
+  height: 33px;
+  text-align: center;
+  line-height: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  transition:  all 1s;
+}
+
+.blog-div .btn-blog:hover{
+  color: white;
+  background-color: #ff9234;
+  transition:  all 1s;
+}
+
+.newsltter {
+  padding: 100px 120px;
+  text-align: center;
+  width: 100%;
+  transition: padding 0.5s;
+}
+
+.newsltter h5{
+color: #fb7813;
+font-family: 'Roboto Black', sans-serif !important;
+}
+
+.newsltter p{
+width: 450px;
+color: #8f8f8f;
+margin: auto;
+margin-top: 30px;
+font-family: 'Roboto Black', sans-serif !important;
+}
+
+.newsltter .form-inline{
+  margin-top: 30px;
+}
+
+.email-newsletter{
+  width: 50%;
+  border: 1px solid #b9bbbd;
+  height: 45px;
+  padding-left: 15px;
+  border-radius: 0px;
+  outline: none;
+  float: right;
+}
+
+.subscrib {
+  width: 160px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  border: none;
+  height: 45px;
+  text-transform: uppercase;
+  background-color: #fb7813;
+  color: white;
+  float: left;
+  transition: all 1s;
+}
+
+.subscrib:hover {
+  background-color: #ff9234;
+  transition: all 1s;
+}
+
+/*testimonial section */
+
+.testimonial {
+  padding: 100px 100px;
+  text-align: center;
+  width: 100%;
+
+}
+
+.testimonial h1{
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.testimonial h1:before{
+   position: absolute;
+    content: "";
+    width: 7%;
+    height: 2px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color:  #fb7813;
+    bottom: -30%;
+}
+
+.carousel {
+   width: 50%;
+   margin: auto;
+}
+
+.carousel .content {
+  width: 100%;
+  text-align: left;
+}
+
+.carousel .content p{
+font-size: 1.4rem;
+font-family: 'Roboto Black', sans-serif !important;
+line-height: 2;
+}
+
+.carousel .content img{
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  object-fit: cover;
+  float: left;
+  margin-right: 20px;
+
+}
+
+.carousel .content h5{
+
+  margin: 50px;
+}
+
+/*RESERVATION SECTION*/
+
+.reservation-section {
+  width: 100%;
+  padding: 100px 100px;
+}
+
+.reservation-section h1{
+  font-family: 'Roboto Black', sans-serif !important;
+  text-transform: uppercase;
+  position: relative;
+  text-align: center;
+}
+
+.reservation-section h1:before{
+   position: absolute;
+    content: "";
+    width: 7%;
+    height: 2px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color:  #fb7813;
+    bottom: -30%;
+}
+
+.reservation-section p{
+  margin-top: 30px;
+  font-size: 1.4rem;
+  margin-bottom: 120px;
+  text-align: center;
+}
+
+.form-row {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.form-row label{
+  margin-top: 20px;
+}
+
+.reservation-section .form-row input{
+  color: #b9bbbd;
+}
+
+.reservation-section .form-row label{
+  text-align: left;
+}
+
+.reservation-section .form-row input::placeholder {
+  color:  #dae1e7;
+  opacity: 1;
+}
+
+.reservation-section .form-row input:-ms-input-placeholder {
+  color: #dae1e7;
+}
+
+.reservation-section .form-row input::-ms-input-placeholder {
+  color: #dae1e7;
+}
+
+.reservation-img img{
+     width: 100%;
+     height: 100%;
+}
+
+.reservation-section .row-reservation input{
+  border-radius: 0px !important;
+  width: 100%;
+  border:1px solid #dae1e7;
+}
+
+.submit-section {
+  width: 98.5% !important;
+}
+.submit {
+  width: 160px !important;
+  letter-spacing: 2px;
+  cursor: pointer;
+  border: none;
+  height: 45px;
+  text-transform: uppercase;
+  background-color: #fb7813;
+  color: white;
+  transition: all 1s;
+  display: block;
+}
+
+.submit:hover {
+  background-color: #ff9234;
+  transition: all 1s;
+}
+
+/*MEDIA QUERIES */
+
+@media (max-width: 768px) {
+  footer {
+    padding: 50px 50px !important;
+  }
+
+  .our-chef {
+    padding: 50px 50px;
+  }
+
+  header {
+    position: relative;
+  }
+
+  header .navbar{
+   position: relative !important;
+   z-index: 5;
+   padding:20px 20px !important;
+   background-color: black;
+  }
+
+  header .navbar-nav {
+  padding: 0px 0px !important;
+  text-align: left;
+  }
+
+  header .navbar-nav li a{
+  color: white !important;
+  }
+
+  header .navbar .cta-btn a {
+   border: none;
+   background-color:#fb7813;
+     display: block !important;
+     width: 100% !important;
+  }
+  .welcome-section {
+     position: absolute;
+     top: 15%;
+     left: 50%;
+     transform: translate(-50%);
+     z-index: 2;
+     width: 100%;
+  }
+
+  .subscrib, .email-newsletter {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .submit {
+    width: 99% !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  footer {
+    padding: 130px 130px !important;
+  }
+
+  .subscrib, .email-newsletter {
+
+    width: 80%;
+  }
+
+  .newsltter {
+     padding: 70px 80px;
+  }
+
+  .menu {
+    padding: 100px 40px;
+  }
+
+  .reservation-section {
+    padding: 100px 50px;
+  }
+
+  .submit {
+    width: 160px !important;
+    margin: auto !important;
+    float: none !important;
+
+  }
+}
+
+@media only screen and (max-width: 992px) {
+
+  .our-story .our-story-para {
+      padding: 30px 30px;
+  }
+
+  textarea {
+    width: 100% !important;
+  }
+  .name, .email{
+    width: 100% !important;
+  }
+  .namediv, .emaildiv{
+   padding: 0 !important;
+  }
+
+  .our-chef {
+     text-align: center;
+     padding: 30px 30px;
+  }
+
+  .our-chef h1{
+     margin-top: 30px;
+  }
+
+  .our-chef p{
+     margin: auto;
+     margin-bottom: 30px;
+     width: 100%;
+  }
+
+  .our-chef h1:before{
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .menu img{
+      margin-bottom: 30px;
+  }
+
+  .our-story {
+    text-align: center;
+  }
+
+  .our-story h1:before{
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .welcome {
+   font-size: 250%;
+   padding: 10px 30px;
+  }
+
+  header p{
+   font-size: 1rem;
+  }
+  .speacial {
+    padding: 120px 50px;
+  }
+
+  .menu img{
+      margin-top: 30px;
+  }
+
+  .menu h5{
+    padding-top: 5px;
+  }
+
+  .carousel {
+     width: 100%;
+     margin: auto;
+  }
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .our-chef{
+    padding-left: 0;
+  }
+
+  .our-chef img{
+      width: 100%;
+      height: 100%;
+  }
+
+  .email-newsletter {
+     width: 75%;
+   }
+
+   .blog .card{
+    width: 100% !important;
+   }
+
+   .speacial {
+     padding: 120px 40px;
+   }
+
+   .menu {
+     padding: 100px 40px;
+   }
+
+   .reservation-section {
+     padding: 100px 20px;
+   }
+
+}
+
+@media (max-width: 574px) {
+  .newsltter {
+     padding: 70px 10px;
+  }
+  .newsltter p{
+     width: 100%;
+  }
+  .blog .card{
+   width: 100% !important;
+  }
+
+  .speacial {
+    padding: 120px 20px;
+  }
+  .menu {
+    padding: 100px 20px;
+  }
+
+  .testimonial {
+    padding: 50px 50px;
+  }
+  .reservation-section {
+    padding: 100px 20px;
+  }
+}
+
+@media (min-width: 574px) and (max-width: 768px) {
+  .newsltter {
+     padding: 50px 50px;
+  }
+
+  .speacial {
+    padding: 120px 40px;
+  }
+
+  .menu {
+    padding: 100px 30px;
+  }
+  .reservation-section {
+    padding: 100px 60px;
+  }
+  .submit {
+    width: 100% !important;
+  }
+}

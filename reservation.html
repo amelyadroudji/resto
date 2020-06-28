@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Resto Home </title>
+
+<!-- Référence à une feuille de style externe -->
+    <link rel="stylesheet" type="text/css" href="css/style1.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<style>
+/* Styles CSS globaux spécifiques à la page */
+
+</style>
+</head>
+<body>
+
+  <header role="banner">
+    <div class="header-top">
+
+    </div>
+   <nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark">
+     <div class="container">
+       <a class="navbar-brand" href="index.html">resto</a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars" style="color:#fff; font-size:28px;"></i>
+       </button>
+
+       <div class="collapse navbar-collapse" id="navbarsExample05">
+         <ul class="navbar-nav ml-auto pl-lg-5 pl-0">
+           <li class="nav-item">
+             <a class="nav-link active" href="index1.html#special">Special</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="index1.html#about">About</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="index1.html#id-menu">Menu</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="index1.html#id-chef">Chef</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="blog.html">Blog</a>
+           </li>
+         </ul>
+
+         <ul class="navbar-nav ml-auto">
+           <li class="nav-item cta-btn">
+                <a href="#contact-us">contact us</a>
+           </li>
+         </ul>
+
+       </div>
+     </div>
+   </nav>
+     <div class="welcome-section">
+       <h1 class="welcome">Welcome to resto</h1>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+       <a href="reservation.html" class="reservation">Reservation</a>
+     </div>
+
+ </header>
+
+ <div class="container-fluid pl-0 pr-0 ">
+    <div class="row no-gutters">
+
+   <!---RESERVATION SECTION--->
+
+   <div class="reservation-section">
+
+       <h1>reservation</h1>
+       <p>We would be glad to reserve a table at our restaurant</p>
+       <div class="row">
+           <div class="col-lg-5 reservation-img">
+                 <img src="images/resto.jpg" alt="">
+           </div>
+           <div class="col-lg-7 row-reservation">
+               <form>
+                   <div class="form-row">
+                     <div class="col-md-6 col-lg-6">
+                       <label for="">First name :</label>
+                       <input type="text" class="form-control" placeholder="First name...">
+                     </div>
+                     <div class="col-md-6 col-lg-6">
+                        <label for="">Last name :</label>
+                       <input type="text" class="form-control" placeholder="Last name...">
+                     </div>
+                   </div>
+                   <div class="form-row">
+                     <div class="col-md-6 col-lg-6">
+                        <label for="">Email :</label>
+                       <input type="email" class="form-control" placeholder="Your Email...">
+                     </div>
+                     <div class="col-md-6 col-lg-6">
+                        <label for="">Phone :</label>
+                       <input type="tel" class="form-control" placeholder="Your Phone...">
+                     </div>
+                   </div>
+                   <div class="form-row">
+                     <div class="col-md-6 col-lg-6">
+                        <label for="">Number of table :</label>
+                       <input type="number" class="form-control" min="1" placeholder="Number of table...">
+                     </div>
+                     <div class="col-md-6 col-lg-6">
+                        <label for="">Number of guests :</label>
+                       <input type="number" class="form-control" min="1" placeholder="Number of guests...">
+                     </div>
+                   </div>
+                   <div class="form-row">
+                     <div class="col-md-6 col-lg-6">
+                        <label for="">Date :</label>
+                       <input type="date" id="start" name="trip-start"
+                            value="2020-06-26" min="2020-06-26" max="2020-12-31" class="form-control">
+                     </div>
+                     <div class="col-md-6 col-lg-6">
+                        <label for="">Hour :</label>
+                       <input type="time" min="09:00" max="00:00" required class="form-control" placeholder="Number of guests...">
+                     </div>
+                   </div>
+                   <div class="submit-section">
+                       <input type="submit" value="submit" class="submit mt-5">
+                   </div>
+              </form>
+           </div>
+       </div>
+
+
+   </div>
+
+   <div class="instagram">
+      <div class="row">
+         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+             <img src="images/1.jpg">
+         </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+             <img src="images/2.jpg">
+         </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+             <img src="images/3.jpg">
+         </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+             <img src="images/1.jpg">
+         </div>
+         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+             <img src="images/2.jpg">
+         </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+             <img src="images/3.jpg">
+         </div>
+       </div>
+   </div>
+
+   <!---NEWSLETTER SECTION ---->
+   <div class="newsltter">
+
+             <h5>Subsribe to Newsletter</h5>
+
+             <p>Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Dolore ex temporibus magni ipsam inventore dolorum sunt, amet vel.</p>
+
+        <div class="row">
+            <div class="col-lg-12">
+              <form class="form-inline">
+                <div class="col-lg-7 col-md-7 col-sm-12">
+                  <input type="email" placeholder="Enter Email Address" class="email-newsletter">
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-12">
+                  <button type="submit" class="subscrib">subscribe</button>
+                </div>
+              </form>
+            </div>
+        </div>
+   </div>
+
+   <!---FOOTER SECTION ----->
+
+
+       <footer>
+           <div class="row">
+               <div class="col-lg-4">
+                   <h4>RESERVATIONS</h4>
+                   <p>Call</p>
+                   <p>(+213) 654-3210</p>
+               </div>
+               <div class="col-lg-4">
+                     <h4>ADDRESS</h4>
+                    <p>San Francisco, CA 12345</p>
+                  <p>4321 California St,</p>
+               </div>
+               <div class="col-lg-4">
+                   <h4>OPENING HOURS</h4>
+                   <p>Mon-Thurs: 10:00 AM - 11:00 PM</p>
+                   <p>Fri-Sun: 11:00 AM - 02:00 AM</p>
+
+               </div>
+           </div>
+
+
+               <div class="row" id="contact-us">
+                     <div class="col">
+                          <h4 class="send">Send us a message</h4>
+                     </div>
+
+               </div>
+
+                 <form>
+                     <div class="row">
+                         <div class="col-md-12 col-lg-6 namediv" >
+                            <input type="text" placeholder="  Name...." class="name">
+                         </div>
+                         <div class="col-md-12 col-lg-6 emaildiv">
+                            <input type="text" placeholder="  Email...." class="email">
+                         </div>
+                     </div>
+                     <div class="row">
+                         <div class="col-md-12 col-lg-12 textarea-row">
+                            <textarea placeholder="  Your message...."></textarea>
+                         </div>
+                     </div>
+                     <div class="row">
+                         <div class="col">
+                             <input type="button" class="btn" value="send message">
+                         </div>
+                     </div>
+                </form>
+
+       </footer>
+
+
+
+
+<div class="copyright">
+   <div class="row">
+     <div class="col-md-8 col-lg-7">
+             <p>© 2020 resto. All rights reserved. Designed with <i class="fa fa-heart" aria-hidden="true"></i> by Amel yadroudj</p>
+     </div>
+     <div class="col-md-4 col-lg-5">
+           <ul class="social-media">
+               <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+               <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+               <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+               <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+           </ul>
+     </div>
+   </div>
+
+</div>
+
+
+  </div>
+</div>
+
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/popper.min.js"></script>
+  </body>
+
+  </html>
